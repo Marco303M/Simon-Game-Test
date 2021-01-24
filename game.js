@@ -71,7 +71,7 @@ function startOver() {
   setTimeout(function() {
     $("body").removeClass("game-over")
   }, 200);
-  $("#level-title").text("Game Over! You reached Level " + level + " ! Press Enter to Start again");
+  $("#level-title").text("Game Over! You reached Level " + (level -1) + " ! Press Enter to Start again");
   started = false;
   gamePattern = [];
   level = 0;
