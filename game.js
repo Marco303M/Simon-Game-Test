@@ -79,7 +79,7 @@ function startOver() {
 
 function nextSequence() {
   level++;
-  $("#level-title").text("Level " + level);
+  $("#level-title").text("Level " + level + "!");
   var randomNumber = Math.floor((Math.random() * 4));
 
   var randomChosenColour = buttonColours[randomNumber];
